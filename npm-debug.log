@@ -1,0 +1,1699 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose readDependencies loading dependencies from /Users/Chris/myflatcollect/package.json
+5 verbose install where, deps [ '/Users/Chris/myflatcollect',
+5 verbose install   [ 'angular2',
+5 verbose install     'systemjs',
+5 verbose install     'es6-shim',
+5 verbose install     'reflect-metadata',
+5 verbose install     'rxjs',
+5 verbose install     'zone.js',
+5 verbose install     'concurrently',
+5 verbose install     'lite-server',
+5 verbose install     'typescript',
+5 verbose install     'typings' ] ]
+6 verbose install where, peers [ '/Users/Chris/myflatcollect', [] ]
+7 verbose installManyTop reading for lifecycle /Users/Chris/myflatcollect/package.json
+8 info preinstall angular2-quickstart@1.0.0
+9 verbose readDependencies loading dependencies from /Users/Chris/myflatcollect/package.json
+10 silly cache add args [ 'angular2@2.0.0-beta.14', null ]
+11 verbose cache add spec angular2@2.0.0-beta.14
+12 silly cache add args [ 'systemjs@0.19.25', null ]
+13 verbose cache add spec systemjs@0.19.25
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'angular2@2.0.0-beta.14',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'angular2',
+14 silly cache add   rawSpec: '2.0.0-beta.14',
+14 silly cache add   spec: '2.0.0-beta.14',
+14 silly cache add   type: 'version' }
+15 silly addNamed angular2@2.0.0-beta.14
+16 verbose addNamed "2.0.0-beta.14" is a plain semver version for angular2
+17 silly mapToRegistry name angular2
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'angular2',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   name: 'angular2',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/angular2
+22 verbose addNameVersion registry:https://registry.npmjs.org/angular2 not in flight; fetching
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'systemjs@0.19.25',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'systemjs',
+23 silly cache add   rawSpec: '0.19.25',
+23 silly cache add   spec: '0.19.25',
+23 silly cache add   type: 'version' }
+24 silly addNamed systemjs@0.19.25
+25 verbose addNamed "0.19.25" is a plain semver version for systemjs
+26 silly mapToRegistry name systemjs
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'systemjs',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'systemjs',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+31 verbose addNameVersion registry:https://registry.npmjs.org/systemjs not in flight; fetching
+32 silly cache add args [ 'es6-shim@^0.35.0', null ]
+33 verbose cache add spec es6-shim@^0.35.0
+34 silly cache add parsed spec Result {
+34 silly cache add   raw: 'es6-shim@^0.35.0',
+34 silly cache add   scope: null,
+34 silly cache add   name: 'es6-shim',
+34 silly cache add   rawSpec: '^0.35.0',
+34 silly cache add   spec: '>=0.35.0 <0.36.0',
+34 silly cache add   type: 'range' }
+35 silly addNamed es6-shim@>=0.35.0 <0.36.0
+36 verbose addNamed ">=0.35.0 <0.36.0" is a valid semver range for es6-shim
+37 silly addNameRange { name: 'es6-shim', range: '>=0.35.0 <0.36.0', hasData: false }
+38 silly mapToRegistry name es6-shim
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'es6-shim',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   name: 'es6-shim',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+43 verbose addNameRange registry:https://registry.npmjs.org/es6-shim not in flight; fetching
+44 silly cache add args [ 'reflect-metadata@0.1.2', null ]
+45 verbose cache add spec reflect-metadata@0.1.2
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: 'reflect-metadata@0.1.2',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'reflect-metadata',
+46 silly cache add   rawSpec: '0.1.2',
+46 silly cache add   spec: '0.1.2',
+46 silly cache add   type: 'version' }
+47 silly addNamed reflect-metadata@0.1.2
+48 verbose addNamed "0.1.2" is a plain semver version for reflect-metadata
+49 silly mapToRegistry name reflect-metadata
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'reflect-metadata',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   name: 'reflect-metadata',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+54 verbose addNameVersion registry:https://registry.npmjs.org/reflect-metadata not in flight; fetching
+55 silly cache add args [ 'rxjs@5.0.0-beta.2', null ]
+56 verbose cache add spec rxjs@5.0.0-beta.2
+57 silly cache add parsed spec Result {
+57 silly cache add   raw: 'rxjs@5.0.0-beta.2',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'rxjs',
+57 silly cache add   rawSpec: '5.0.0-beta.2',
+57 silly cache add   spec: '5.0.0-beta.2',
+57 silly cache add   type: 'version' }
+58 silly addNamed rxjs@5.0.0-beta.2
+59 verbose addNamed "5.0.0-beta.2" is a plain semver version for rxjs
+60 silly mapToRegistry name rxjs
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'rxjs',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   name: 'rxjs',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+65 verbose addNameVersion registry:https://registry.npmjs.org/rxjs not in flight; fetching
+66 silly cache add args [ 'zone.js@0.6.6', null ]
+67 verbose cache add spec zone.js@0.6.6
+68 silly cache add parsed spec Result {
+68 silly cache add   raw: 'zone.js@0.6.6',
+68 silly cache add   scope: null,
+68 silly cache add   name: 'zone.js',
+68 silly cache add   rawSpec: '0.6.6',
+68 silly cache add   spec: '0.6.6',
+68 silly cache add   type: 'version' }
+69 silly addNamed zone.js@0.6.6
+70 verbose addNamed "0.6.6" is a plain semver version for zone.js
+71 silly mapToRegistry name zone.js
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry data Result {
+74 silly mapToRegistry   raw: 'zone.js',
+74 silly mapToRegistry   scope: null,
+74 silly mapToRegistry   name: 'zone.js',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+76 verbose addNameVersion registry:https://registry.npmjs.org/zone.js not in flight; fetching
+77 silly cache add args [ 'concurrently@^2.0.0', null ]
+78 verbose cache add spec concurrently@^2.0.0
+79 silly cache add parsed spec Result {
+79 silly cache add   raw: 'concurrently@^2.0.0',
+79 silly cache add   scope: null,
+79 silly cache add   name: 'concurrently',
+79 silly cache add   rawSpec: '^2.0.0',
+79 silly cache add   spec: '>=2.0.0 <3.0.0',
+79 silly cache add   type: 'range' }
+80 silly addNamed concurrently@>=2.0.0 <3.0.0
+81 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for concurrently
+82 silly addNameRange { name: 'concurrently', range: '>=2.0.0 <3.0.0', hasData: false }
+83 silly mapToRegistry name concurrently
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry data Result {
+86 silly mapToRegistry   raw: 'concurrently',
+86 silly mapToRegistry   scope: null,
+86 silly mapToRegistry   name: 'concurrently',
+86 silly mapToRegistry   rawSpec: '',
+86 silly mapToRegistry   spec: 'latest',
+86 silly mapToRegistry   type: 'tag' }
+87 silly mapToRegistry uri https://registry.npmjs.org/concurrently
+88 verbose addNameRange registry:https://registry.npmjs.org/concurrently not in flight; fetching
+89 silly cache add args [ 'lite-server@^2.2.0', null ]
+90 verbose cache add spec lite-server@^2.2.0
+91 silly cache add parsed spec Result {
+91 silly cache add   raw: 'lite-server@^2.2.0',
+91 silly cache add   scope: null,
+91 silly cache add   name: 'lite-server',
+91 silly cache add   rawSpec: '^2.2.0',
+91 silly cache add   spec: '>=2.2.0 <3.0.0',
+91 silly cache add   type: 'range' }
+92 silly addNamed lite-server@>=2.2.0 <3.0.0
+93 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for lite-server
+94 silly addNameRange { name: 'lite-server', range: '>=2.2.0 <3.0.0', hasData: false }
+95 silly mapToRegistry name lite-server
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry data Result {
+98 silly mapToRegistry   raw: 'lite-server',
+98 silly mapToRegistry   scope: null,
+98 silly mapToRegistry   name: 'lite-server',
+98 silly mapToRegistry   rawSpec: '',
+98 silly mapToRegistry   spec: 'latest',
+98 silly mapToRegistry   type: 'tag' }
+99 silly mapToRegistry uri https://registry.npmjs.org/lite-server
+100 verbose addNameRange registry:https://registry.npmjs.org/lite-server not in flight; fetching
+101 silly cache add args [ 'typescript@^1.8.9', null ]
+102 verbose cache add spec typescript@^1.8.9
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'typescript@^1.8.9',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'typescript',
+103 silly cache add   rawSpec: '^1.8.9',
+103 silly cache add   spec: '>=1.8.9 <2.0.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed typescript@>=1.8.9 <2.0.0
+105 verbose addNamed ">=1.8.9 <2.0.0" is a valid semver range for typescript
+106 silly addNameRange { name: 'typescript', range: '>=1.8.9 <2.0.0', hasData: false }
+107 silly mapToRegistry name typescript
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry data Result {
+110 silly mapToRegistry   raw: 'typescript',
+110 silly mapToRegistry   scope: null,
+110 silly mapToRegistry   name: 'typescript',
+110 silly mapToRegistry   rawSpec: '',
+110 silly mapToRegistry   spec: 'latest',
+110 silly mapToRegistry   type: 'tag' }
+111 silly mapToRegistry uri https://registry.npmjs.org/typescript
+112 verbose addNameRange registry:https://registry.npmjs.org/typescript not in flight; fetching
+113 silly cache add args [ 'typings@^0.7.12', null ]
+114 verbose cache add spec typings@^0.7.12
+115 silly cache add parsed spec Result {
+115 silly cache add   raw: 'typings@^0.7.12',
+115 silly cache add   scope: null,
+115 silly cache add   name: 'typings',
+115 silly cache add   rawSpec: '^0.7.12',
+115 silly cache add   spec: '>=0.7.12 <0.8.0',
+115 silly cache add   type: 'range' }
+116 silly addNamed typings@>=0.7.12 <0.8.0
+117 verbose addNamed ">=0.7.12 <0.8.0" is a valid semver range for typings
+118 silly addNameRange { name: 'typings', range: '>=0.7.12 <0.8.0', hasData: false }
+119 silly mapToRegistry name typings
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry data Result {
+122 silly mapToRegistry   raw: 'typings',
+122 silly mapToRegistry   scope: null,
+122 silly mapToRegistry   name: 'typings',
+122 silly mapToRegistry   rawSpec: '',
+122 silly mapToRegistry   spec: 'latest',
+122 silly mapToRegistry   type: 'tag' }
+123 silly mapToRegistry uri https://registry.npmjs.org/typings
+124 verbose addNameRange registry:https://registry.npmjs.org/typings not in flight; fetching
+125 verbose request uri https://registry.npmjs.org/reflect-metadata
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 11:33:14
+128 verbose request id 730d3d3ade89303f
+129 verbose etag "74JLNYMC3ZODCP59Y0SJXOL2J"
+130 http request GET https://registry.npmjs.org/reflect-metadata
+131 verbose request uri https://registry.npmjs.org/systemjs
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 11:33:14
+134 verbose etag "3DNLLUDSC4H1J1RMFORKFY9OB"
+135 http request GET https://registry.npmjs.org/systemjs
+136 verbose request uri https://registry.npmjs.org/angular2
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 11:33:14
+139 verbose etag "IDNGG7S6NJFH2HRSAHKRBID5"
+140 http request GET https://registry.npmjs.org/angular2
+141 verbose request uri https://registry.npmjs.org/rxjs
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 11:33:15
+144 verbose etag "6U0ON4BV980Z2WGO2AN36YFTC"
+145 http request GET https://registry.npmjs.org/rxjs
+146 verbose request uri https://registry.npmjs.org/concurrently
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 11:33:15
+149 verbose etag "A6YL05TLU4MEU0ABAQU6JL0FB"
+150 http request GET https://registry.npmjs.org/concurrently
+151 verbose request uri https://registry.npmjs.org/zone.js
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 11:33:15
+154 verbose etag "8H91AOSGSKZQCPYZ31UGDJVCX"
+155 http request GET https://registry.npmjs.org/zone.js
+156 verbose request uri https://registry.npmjs.org/lite-server
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 11:33:15
+159 verbose etag "A8P6ZV3UPM3YO7B6GOH3GYMTW"
+160 http request GET https://registry.npmjs.org/lite-server
+161 verbose request uri https://registry.npmjs.org/es6-shim
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 11:33:15
+164 verbose etag "EH5WMZZJWYJFAD2EJG6PIP3XE"
+165 http request GET https://registry.npmjs.org/es6-shim
+166 verbose request uri https://registry.npmjs.org/typings
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 11:33:15
+169 verbose etag "ER8NCNPON300M12FLTGK4H4DZ"
+170 http request GET https://registry.npmjs.org/typings
+171 verbose request uri https://registry.npmjs.org/typescript
+172 verbose request no auth needed
+173 info attempt registry request try #1 at 11:33:15
+174 verbose etag "AAWKLRT4TH421T3ZJDN7JNNDN"
+175 http request GET https://registry.npmjs.org/typescript
+176 http 304 https://registry.npmjs.org/rxjs
+177 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+177 verbose headers   via: '1.1 varnish',
+177 verbose headers   'cache-control': 'max-age=300',
+177 verbose headers   etag: '"6U0ON4BV980Z2WGO2AN36YFTC"',
+177 verbose headers   age: '193',
+177 verbose headers   connection: 'keep-alive',
+177 verbose headers   'x-served-by': 'cache-fra1237-FRA',
+177 verbose headers   'x-cache': 'HIT',
+177 verbose headers   'x-cache-hits': '1',
+177 verbose headers   'x-timer': 'S1460367193.573320,VS0,VE0',
+177 verbose headers   vary: 'Accept-Encoding' }
+178 silly get cb [ 304,
+178 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+178 silly get     via: '1.1 varnish',
+178 silly get     'cache-control': 'max-age=300',
+178 silly get     etag: '"6U0ON4BV980Z2WGO2AN36YFTC"',
+178 silly get     age: '193',
+178 silly get     connection: 'keep-alive',
+178 silly get     'x-served-by': 'cache-fra1237-FRA',
+178 silly get     'x-cache': 'HIT',
+178 silly get     'x-cache-hits': '1',
+178 silly get     'x-timer': 'S1460367193.573320,VS0,VE0',
+178 silly get     vary: 'Accept-Encoding' } ]
+179 verbose etag https://registry.npmjs.org/rxjs from cache
+180 verbose get saving rxjs to /Users/Chris/.npm/registry.npmjs.org/rxjs/.cache.json
+181 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+182 http 304 https://registry.npmjs.org/systemjs
+183 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+183 verbose headers   via: '1.1 varnish',
+183 verbose headers   'cache-control': 'max-age=300',
+183 verbose headers   etag: '"3DNLLUDSC4H1J1RMFORKFY9OB"',
+183 verbose headers   age: '224',
+183 verbose headers   connection: 'keep-alive',
+183 verbose headers   'x-served-by': 'cache-fra1237-FRA',
+183 verbose headers   'x-cache': 'HIT',
+183 verbose headers   'x-cache-hits': '262',
+183 verbose headers   'x-timer': 'S1460367193.574306,VS0,VE0',
+183 verbose headers   vary: 'Accept-Encoding' }
+184 silly get cb [ 304,
+184 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+184 silly get     via: '1.1 varnish',
+184 silly get     'cache-control': 'max-age=300',
+184 silly get     etag: '"3DNLLUDSC4H1J1RMFORKFY9OB"',
+184 silly get     age: '224',
+184 silly get     connection: 'keep-alive',
+184 silly get     'x-served-by': 'cache-fra1237-FRA',
+184 silly get     'x-cache': 'HIT',
+184 silly get     'x-cache-hits': '262',
+184 silly get     'x-timer': 'S1460367193.574306,VS0,VE0',
+184 silly get     vary: 'Accept-Encoding' } ]
+185 verbose etag https://registry.npmjs.org/systemjs from cache
+186 verbose get saving systemjs to /Users/Chris/.npm/registry.npmjs.org/systemjs/.cache.json
+187 verbose correctMkdir /Users/Chris/.npm correctMkdir already in flight; waiting
+188 http 304 https://registry.npmjs.org/reflect-metadata
+189 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+189 verbose headers   via: '1.1 varnish',
+189 verbose headers   'cache-control': 'max-age=300',
+189 verbose headers   etag: '"74JLNYMC3ZODCP59Y0SJXOL2J"',
+189 verbose headers   age: '194',
+189 verbose headers   connection: 'keep-alive',
+189 verbose headers   'x-served-by': 'cache-fra1222-FRA',
+189 verbose headers   'x-cache': 'HIT',
+189 verbose headers   'x-cache-hits': '2',
+189 verbose headers   'x-timer': 'S1460367193.574987,VS0,VE0',
+189 verbose headers   vary: 'Accept-Encoding' }
+190 silly get cb [ 304,
+190 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+190 silly get     via: '1.1 varnish',
+190 silly get     'cache-control': 'max-age=300',
+190 silly get     etag: '"74JLNYMC3ZODCP59Y0SJXOL2J"',
+190 silly get     age: '194',
+190 silly get     connection: 'keep-alive',
+190 silly get     'x-served-by': 'cache-fra1222-FRA',
+190 silly get     'x-cache': 'HIT',
+190 silly get     'x-cache-hits': '2',
+190 silly get     'x-timer': 'S1460367193.574987,VS0,VE0',
+190 silly get     vary: 'Accept-Encoding' } ]
+191 verbose etag https://registry.npmjs.org/reflect-metadata from cache
+192 verbose get saving reflect-metadata to /Users/Chris/.npm/registry.npmjs.org/reflect-metadata/.cache.json
+193 verbose correctMkdir /Users/Chris/.npm correctMkdir already in flight; waiting
+194 http 304 https://registry.npmjs.org/angular2
+195 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+195 verbose headers   via: '1.1 varnish',
+195 verbose headers   'cache-control': 'max-age=300',
+195 verbose headers   etag: '"IDNGG7S6NJFH2HRSAHKRBID5"',
+195 verbose headers   age: '126',
+195 verbose headers   connection: 'keep-alive',
+195 verbose headers   'x-served-by': 'cache-fra1230-FRA',
+195 verbose headers   'x-cache': 'HIT',
+195 verbose headers   'x-cache-hits': '1',
+195 verbose headers   'x-timer': 'S1460367193.573593,VS0,VE0',
+195 verbose headers   vary: 'Accept-Encoding' }
+196 silly get cb [ 304,
+196 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+196 silly get     via: '1.1 varnish',
+196 silly get     'cache-control': 'max-age=300',
+196 silly get     etag: '"IDNGG7S6NJFH2HRSAHKRBID5"',
+196 silly get     age: '126',
+196 silly get     connection: 'keep-alive',
+196 silly get     'x-served-by': 'cache-fra1230-FRA',
+196 silly get     'x-cache': 'HIT',
+196 silly get     'x-cache-hits': '1',
+196 silly get     'x-timer': 'S1460367193.573593,VS0,VE0',
+196 silly get     vary: 'Accept-Encoding' } ]
+197 verbose etag https://registry.npmjs.org/angular2 from cache
+198 verbose get saving angular2 to /Users/Chris/.npm/registry.npmjs.org/angular2/.cache.json
+199 verbose correctMkdir /Users/Chris/.npm correctMkdir already in flight; waiting
+200 http 304 https://registry.npmjs.org/lite-server
+201 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+201 verbose headers   via: '1.1 varnish',
+201 verbose headers   'cache-control': 'max-age=300',
+201 verbose headers   etag: '"A8P6ZV3UPM3YO7B6GOH3GYMTW"',
+201 verbose headers   age: '40',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'x-served-by': 'cache-fra1248-FRA',
+201 verbose headers   'x-cache': 'HIT',
+201 verbose headers   'x-cache-hits': '1',
+201 verbose headers   'x-timer': 'S1460367193.576149,VS0,VE0',
+201 verbose headers   vary: 'Accept-Encoding' }
+202 silly get cb [ 304,
+202 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+202 silly get     via: '1.1 varnish',
+202 silly get     'cache-control': 'max-age=300',
+202 silly get     etag: '"A8P6ZV3UPM3YO7B6GOH3GYMTW"',
+202 silly get     age: '40',
+202 silly get     connection: 'keep-alive',
+202 silly get     'x-served-by': 'cache-fra1248-FRA',
+202 silly get     'x-cache': 'HIT',
+202 silly get     'x-cache-hits': '1',
+202 silly get     'x-timer': 'S1460367193.576149,VS0,VE0',
+202 silly get     vary: 'Accept-Encoding' } ]
+203 verbose etag https://registry.npmjs.org/lite-server from cache
+204 verbose get saving lite-server to /Users/Chris/.npm/registry.npmjs.org/lite-server/.cache.json
+205 verbose correctMkdir /Users/Chris/.npm correctMkdir already in flight; waiting
+206 http 304 https://registry.npmjs.org/typings
+207 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+207 verbose headers   via: '1.1 varnish',
+207 verbose headers   'cache-control': 'max-age=300',
+207 verbose headers   etag: '"ER8NCNPON300M12FLTGK4H4DZ"',
+207 verbose headers   age: '198',
+207 verbose headers   connection: 'keep-alive',
+207 verbose headers   'x-served-by': 'cache-fra1237-FRA',
+207 verbose headers   'x-cache': 'HIT',
+207 verbose headers   'x-cache-hits': '3',
+207 verbose headers   'x-timer': 'S1460367193.577605,VS0,VE0',
+207 verbose headers   vary: 'Accept-Encoding' }
+208 silly get cb [ 304,
+208 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+208 silly get     via: '1.1 varnish',
+208 silly get     'cache-control': 'max-age=300',
+208 silly get     etag: '"ER8NCNPON300M12FLTGK4H4DZ"',
+208 silly get     age: '198',
+208 silly get     connection: 'keep-alive',
+208 silly get     'x-served-by': 'cache-fra1237-FRA',
+208 silly get     'x-cache': 'HIT',
+208 silly get     'x-cache-hits': '3',
+208 silly get     'x-timer': 'S1460367193.577605,VS0,VE0',
+208 silly get     vary: 'Accept-Encoding' } ]
+209 verbose etag https://registry.npmjs.org/typings from cache
+210 verbose get saving typings to /Users/Chris/.npm/registry.npmjs.org/typings/.cache.json
+211 verbose correctMkdir /Users/Chris/.npm correctMkdir already in flight; waiting
+212 http 304 https://registry.npmjs.org/concurrently
+213 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+213 verbose headers   via: '1.1 varnish',
+213 verbose headers   'cache-control': 'max-age=300',
+213 verbose headers   etag: '"A6YL05TLU4MEU0ABAQU6JL0FB"',
+213 verbose headers   age: '138',
+213 verbose headers   connection: 'keep-alive',
+213 verbose headers   'x-served-by': 'cache-fra1229-FRA',
+213 verbose headers   'x-cache': 'HIT',
+213 verbose headers   'x-cache-hits': '1',
+213 verbose headers   'x-timer': 'S1460367193.577803,VS0,VE0',
+213 verbose headers   vary: 'Accept-Encoding' }
+214 silly get cb [ 304,
+214 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+214 silly get     via: '1.1 varnish',
+214 silly get     'cache-control': 'max-age=300',
+214 silly get     etag: '"A6YL05TLU4MEU0ABAQU6JL0FB"',
+214 silly get     age: '138',
+214 silly get     connection: 'keep-alive',
+214 silly get     'x-served-by': 'cache-fra1229-FRA',
+214 silly get     'x-cache': 'HIT',
+214 silly get     'x-cache-hits': '1',
+214 silly get     'x-timer': 'S1460367193.577803,VS0,VE0',
+214 silly get     vary: 'Accept-Encoding' } ]
+215 verbose etag https://registry.npmjs.org/concurrently from cache
+216 verbose get saving concurrently to /Users/Chris/.npm/registry.npmjs.org/concurrently/.cache.json
+217 verbose correctMkdir /Users/Chris/.npm correctMkdir already in flight; waiting
+218 http 304 https://registry.npmjs.org/es6-shim
+219 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+219 verbose headers   via: '1.1 varnish',
+219 verbose headers   'cache-control': 'max-age=300',
+219 verbose headers   etag: '"EH5WMZZJWYJFAD2EJG6PIP3XE"',
+219 verbose headers   age: '275',
+219 verbose headers   connection: 'keep-alive',
+219 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+219 verbose headers   'x-cache': 'HIT',
+219 verbose headers   'x-cache-hits': '2',
+219 verbose headers   'x-timer': 'S1460367193.579289,VS0,VE0',
+219 verbose headers   vary: 'Accept-Encoding' }
+220 silly get cb [ 304,
+220 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+220 silly get     via: '1.1 varnish',
+220 silly get     'cache-control': 'max-age=300',
+220 silly get     etag: '"EH5WMZZJWYJFAD2EJG6PIP3XE"',
+220 silly get     age: '275',
+220 silly get     connection: 'keep-alive',
+220 silly get     'x-served-by': 'cache-fra1227-FRA',
+220 silly get     'x-cache': 'HIT',
+220 silly get     'x-cache-hits': '2',
+220 silly get     'x-timer': 'S1460367193.579289,VS0,VE0',
+220 silly get     vary: 'Accept-Encoding' } ]
+221 verbose etag https://registry.npmjs.org/es6-shim from cache
+222 verbose get saving es6-shim to /Users/Chris/.npm/registry.npmjs.org/es6-shim/.cache.json
+223 verbose correctMkdir /Users/Chris/.npm correctMkdir already in flight; waiting
+224 http 304 https://registry.npmjs.org/zone.js
+225 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+225 verbose headers   via: '1.1 varnish',
+225 verbose headers   'cache-control': 'max-age=300',
+225 verbose headers   etag: '"8H91AOSGSKZQCPYZ31UGDJVCX"',
+225 verbose headers   age: '126',
+225 verbose headers   connection: 'keep-alive',
+225 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+225 verbose headers   'x-cache': 'HIT',
+225 verbose headers   'x-cache-hits': '1',
+225 verbose headers   'x-timer': 'S1460367193.579486,VS0,VE0',
+225 verbose headers   vary: 'Accept-Encoding' }
+226 silly get cb [ 304,
+226 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+226 silly get     via: '1.1 varnish',
+226 silly get     'cache-control': 'max-age=300',
+226 silly get     etag: '"8H91AOSGSKZQCPYZ31UGDJVCX"',
+226 silly get     age: '126',
+226 silly get     connection: 'keep-alive',
+226 silly get     'x-served-by': 'cache-fra1227-FRA',
+226 silly get     'x-cache': 'HIT',
+226 silly get     'x-cache-hits': '1',
+226 silly get     'x-timer': 'S1460367193.579486,VS0,VE0',
+226 silly get     vary: 'Accept-Encoding' } ]
+227 verbose etag https://registry.npmjs.org/zone.js from cache
+228 verbose get saving zone.js to /Users/Chris/.npm/registry.npmjs.org/zone.js/.cache.json
+229 verbose correctMkdir /Users/Chris/.npm correctMkdir already in flight; waiting
+230 http 304 https://registry.npmjs.org/typescript
+231 verbose headers { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+231 verbose headers   via: '1.1 varnish',
+231 verbose headers   'cache-control': 'max-age=300',
+231 verbose headers   etag: '"AAWKLRT4TH421T3ZJDN7JNNDN"',
+231 verbose headers   age: '164',
+231 verbose headers   connection: 'keep-alive',
+231 verbose headers   'x-served-by': 'cache-fra1228-FRA',
+231 verbose headers   'x-cache': 'HIT',
+231 verbose headers   'x-cache-hits': '2',
+231 verbose headers   'x-timer': 'S1460367193.585256,VS0,VE0',
+231 verbose headers   vary: 'Accept-Encoding' }
+232 silly get cb [ 304,
+232 silly get   { date: 'Mon, 11 Apr 2016 09:33:13 GMT',
+232 silly get     via: '1.1 varnish',
+232 silly get     'cache-control': 'max-age=300',
+232 silly get     etag: '"AAWKLRT4TH421T3ZJDN7JNNDN"',
+232 silly get     age: '164',
+232 silly get     connection: 'keep-alive',
+232 silly get     'x-served-by': 'cache-fra1228-FRA',
+232 silly get     'x-cache': 'HIT',
+232 silly get     'x-cache-hits': '2',
+232 silly get     'x-timer': 'S1460367193.585256,VS0,VE0',
+232 silly get     vary: 'Accept-Encoding' } ]
+233 verbose etag https://registry.npmjs.org/typescript from cache
+234 verbose get saving typescript to /Users/Chris/.npm/registry.npmjs.org/typescript/.cache.json
+235 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+236 silly addNameRange number 2 { name: 'lite-server', range: '>=2.2.0 <3.0.0', hasData: true }
+237 silly addNameRange versions [ 'lite-server',
+237 silly addNameRange   [ '1.0.0',
+237 silly addNameRange     '1.0.1',
+237 silly addNameRange     '1.0.3',
+237 silly addNameRange     '1.1.0',
+237 silly addNameRange     '1.2.0',
+237 silly addNameRange     '1.3.0',
+237 silly addNameRange     '1.3.1',
+237 silly addNameRange     '1.3.2',
+237 silly addNameRange     '1.3.3',
+237 silly addNameRange     '1.3.4',
+237 silly addNameRange     '2.0.0',
+237 silly addNameRange     '2.0.1',
+237 silly addNameRange     '2.1.0',
+237 silly addNameRange     '2.2.0' ] ]
+238 silly addNamed lite-server@2.2.0
+239 verbose addNamed "2.2.0" is a plain semver version for lite-server
+240 silly addNameRange number 2 { name: 'typings', range: '>=0.7.12 <0.8.0', hasData: true }
+241 silly addNameRange versions [ 'typings',
+241 silly addNameRange   [ '0.0.0',
+241 silly addNameRange     '0.0.2',
+241 silly addNameRange     '0.0.3',
+241 silly addNameRange     '0.0.4',
+241 silly addNameRange     '0.0.5',
+241 silly addNameRange     '0.0.6',
+241 silly addNameRange     '0.0.7',
+241 silly addNameRange     '0.0.8',
+241 silly addNameRange     '0.0.9',
+241 silly addNameRange     '0.0.10',
+241 silly addNameRange     '0.0.11',
+241 silly addNameRange     '0.0.12',
+241 silly addNameRange     '0.0.13',
+241 silly addNameRange     '0.1.0',
+241 silly addNameRange     '0.1.1',
+241 silly addNameRange     '0.1.2',
+241 silly addNameRange     '0.1.3',
+241 silly addNameRange     '0.1.4',
+241 silly addNameRange     '0.1.5',
+241 silly addNameRange     '0.1.6',
+241 silly addNameRange     '0.1.7',
+241 silly addNameRange     '0.2.0',
+241 silly addNameRange     '0.2.1',
+241 silly addNameRange     '0.2.2',
+241 silly addNameRange     '0.2.3',
+241 silly addNameRange     '0.2.4',
+241 silly addNameRange     '0.3.0',
+241 silly addNameRange     '0.3.1',
+241 silly addNameRange     '0.3.2',
+241 silly addNameRange     '0.3.3',
+241 silly addNameRange     '0.3.4',
+241 silly addNameRange     '0.3.5',
+241 silly addNameRange     '0.4.0',
+241 silly addNameRange     '0.4.1',
+241 silly addNameRange     '0.5.0',
+241 silly addNameRange     '0.5.1',
+241 silly addNameRange     '0.5.2',
+241 silly addNameRange     '0.6.0',
+241 silly addNameRange     '0.6.1',
+241 silly addNameRange     '0.6.2',
+241 silly addNameRange     '0.6.3',
+241 silly addNameRange     '0.6.4',
+241 silly addNameRange     '0.6.5',
+241 silly addNameRange     '0.6.6',
+241 silly addNameRange     '0.6.7',
+241 silly addNameRange     '0.6.8',
+241 silly addNameRange     '0.6.9',
+241 silly addNameRange     '0.6.10',
+241 silly addNameRange     '0.7.0',
+241 silly addNameRange     '0.7.1',
+241 silly addNameRange     '0.7.2',
+241 silly addNameRange     '0.7.3',
+241 silly addNameRange     '0.7.4',
+241 silly addNameRange     '0.7.5',
+241 silly addNameRange     '0.7.6',
+241 silly addNameRange     '0.7.7',
+241 silly addNameRange     '0.7.8',
+241 silly addNameRange     '0.7.9',
+241 silly addNameRange     '0.7.10',
+241 silly addNameRange     '0.7.11',
+241 silly addNameRange     '0.7.12' ] ]
+242 silly addNamed typings@0.7.12
+243 verbose addNamed "0.7.12" is a plain semver version for typings
+244 silly addNameRange number 2 { name: 'concurrently', range: '>=2.0.0 <3.0.0', hasData: true }
+245 silly addNameRange versions [ 'concurrently',
+245 silly addNameRange   [ '0.0.2',
+245 silly addNameRange     '0.0.3',
+245 silly addNameRange     '0.0.4',
+245 silly addNameRange     '0.0.5',
+245 silly addNameRange     '0.1.0',
+245 silly addNameRange     '0.1.1',
+245 silly addNameRange     '1.0.0',
+245 silly addNameRange     '2.0.0' ] ]
+246 silly addNamed concurrently@2.0.0
+247 verbose addNamed "2.0.0" is a plain semver version for concurrently
+248 silly addNameRange number 2 { name: 'es6-shim', range: '>=0.35.0 <0.36.0', hasData: true }
+249 silly addNameRange versions [ 'es6-shim',
+249 silly addNameRange   [ '0.1.0',
+249 silly addNameRange     '0.2.0',
+249 silly addNameRange     '0.2.1',
+249 silly addNameRange     '0.3.0',
+249 silly addNameRange     '0.3.1',
+249 silly addNameRange     '0.4.0',
+249 silly addNameRange     '0.4.1',
+249 silly addNameRange     '0.5.0',
+249 silly addNameRange     '0.5.1',
+249 silly addNameRange     '0.5.2',
+249 silly addNameRange     '0.5.3',
+249 silly addNameRange     '0.6.0',
+249 silly addNameRange     '0.7.0',
+249 silly addNameRange     '0.8.0',
+249 silly addNameRange     '0.9.0',
+249 silly addNameRange     '0.9.1',
+249 silly addNameRange     '0.9.2',
+249 silly addNameRange     '0.9.3',
+249 silly addNameRange     '0.10.0',
+249 silly addNameRange     '0.10.1',
+249 silly addNameRange     '0.11.0',
+249 silly addNameRange     '0.11.1',
+249 silly addNameRange     '0.12.0',
+249 silly addNameRange     '0.13.0',
+249 silly addNameRange     '0.14.0',
+249 silly addNameRange     '0.15.0',
+249 silly addNameRange     '0.15.1',
+249 silly addNameRange     '0.16.0',
+249 silly addNameRange     '0.17.0',
+249 silly addNameRange     '0.18.0',
+249 silly addNameRange     '0.19.0',
+249 silly addNameRange     '0.19.1',
+249 silly addNameRange     '0.19.2',
+249 silly addNameRange     '0.20.0',
+249 silly addNameRange     '0.20.1',
+249 silly addNameRange     '0.20.2',
+249 silly addNameRange     '0.20.3',
+249 silly addNameRange     '0.20.4',
+249 silly addNameRange     '0.21.0',
+249 silly addNameRange     '0.21.1',
+249 silly addNameRange     '0.22.0',
+249 silly addNameRange     '0.22.1',
+249 silly addNameRange     '0.22.2',
+249 silly addNameRange     '0.23.0',
+249 silly addNameRange     '0.24.0',
+249 silly addNameRange     '0.25.0',
+249 silly addNameRange     '0.25.1',
+249 silly addNameRange     '0.25.2',
+249 silly addNameRange     '0.25.3',
+249 silly addNameRange     '0.26.0',
+249 silly addNameRange     '0.26.1',
+249 silly addNameRange     '0.27.1',
+249 silly addNameRange     '0.28.1',
+249 silly addNameRange     '0.29.0',
+249 silly addNameRange     '0.30.0',
+249 silly addNameRange     '0.31.0',
+249 silly addNameRange     '0.31.1',
+249 silly addNameRange     '0.31.2',
+249 silly addNameRange     '0.31.3',
+249 silly addNameRange     '0.32.0',
+249 silly addNameRange     '0.32.1',
+249 silly addNameRange     '0.32.2',
+249 silly addNameRange     '0.33.0',
+249 silly addNameRange     '0.33.1',
+249 silly addNameRange     '0.33.2',
+249 silly addNameRange     '0.33.3',
+249 silly addNameRange     '0.33.4',
+249 silly addNameRange     '0.33.5',
+249 silly addNameRange     '0.33.6',
+249 silly addNameRange     '0.33.7',
+249 silly addNameRange     '0.33.8',
+249 silly addNameRange     '0.33.9',
+249 silly addNameRange     '0.33.10',
+249 silly addNameRange     '0.33.11',
+249 silly addNameRange     '0.33.12',
+249 silly addNameRange     '0.33.13',
+249 silly addNameRange     '0.34.0',
+249 silly addNameRange     '0.34.1',
+249 silly addNameRange     '0.34.2',
+249 silly addNameRange     '0.34.3',
+249 silly addNameRange     '0.34.4',
+249 silly addNameRange     '0.35.0' ] ]
+250 silly addNamed es6-shim@0.35.0
+251 verbose addNamed "0.35.0" is a plain semver version for es6-shim
+252 silly addNameRange number 2 { name: 'typescript', range: '>=1.8.9 <2.0.0', hasData: true }
+253 silly addNameRange versions [ 'typescript',
+253 silly addNameRange   [ '0.8.0',
+253 silly addNameRange     '0.8.1',
+253 silly addNameRange     '0.8.1-1',
+253 silly addNameRange     '0.8.2',
+253 silly addNameRange     '0.8.3',
+253 silly addNameRange     '0.9.0',
+253 silly addNameRange     '0.9.0-1',
+253 silly addNameRange     '0.9.1',
+253 silly addNameRange     '0.9.1-1',
+253 silly addNameRange     '0.9.5',
+253 silly addNameRange     '0.9.7',
+253 silly addNameRange     '1.0.0',
+253 silly addNameRange     '1.0.1',
+253 silly addNameRange     '1.1.0-1',
+253 silly addNameRange     '1.3.0',
+253 silly addNameRange     '1.4.1',
+253 silly addNameRange     '1.5.0-alpha',
+253 silly addNameRange     '1.5.0-beta',
+253 silly addNameRange     '1.5.3',
+253 silly addNameRange     '1.6.0-dev.20150722.1',
+253 silly addNameRange     '1.6.0-dev.20150723',
+253 silly addNameRange     '1.6.0-dev.20150724',
+253 silly addNameRange     '1.6.0-dev.20150725',
+253 silly addNameRange     '1.6.0-dev.20150726',
+253 silly addNameRange     '1.6.0-dev.20150727',
+253 silly addNameRange     '1.6.0-dev.20150728',
+253 silly addNameRange     '1.6.0-dev.20150729',
+253 silly addNameRange     '1.6.0-dev.20150730',
+253 silly addNameRange     '1.6.0-dev.20150731',
+253 silly addNameRange     '1.6.0-dev.20150801',
+253 silly addNameRange     '1.6.0-dev.20150802',
+253 silly addNameRange     '1.6.0-dev.20150803',
+253 silly addNameRange     '1.6.0-dev.20150804',
+253 silly addNameRange     '1.6.0-dev.20150805',
+253 silly addNameRange     '1.6.0-dev.20150806',
+253 silly addNameRange     '1.6.0-dev.20150807',
+253 silly addNameRange     '1.6.0-dev.20150808',
+253 silly addNameRange     '1.6.0-dev.20150809',
+253 silly addNameRange     '1.6.0-dev.20150810',
+253 silly addNameRange     '1.6.0-dev.20150811',
+253 silly addNameRange     '1.6.0-dev.20150812',
+253 silly addNameRange     '1.6.0-dev.20150813',
+253 silly addNameRange     '1.6.0-dev.20150814',
+253 silly addNameRange     '1.6.0-dev.20150815',
+253 silly addNameRange     '1.6.0-dev.20150816',
+253 silly addNameRange     '1.6.0-dev.20150817',
+253 silly addNameRange     '1.6.0-dev.20150818',
+253 silly addNameRange     '1.6.0-dev.20150819',
+253 silly addNameRange     '1.6.0-dev.20150820',
+253 silly addNameRange     '1.6.0-dev.20150821',
+253 silly addNameRange     '1.6.0-dev.20150822',
+253 silly addNameRange     '1.6.0-dev.20150823',
+253 silly addNameRange     '1.6.0-dev.20150824',
+253 silly addNameRange     '1.6.0-dev.20150825',
+253 silly addNameRange     '1.7.0-dev.20150826',
+253 silly addNameRange     '1.7.0-dev.20150827',
+253 silly addNameRange     '1.7.0-dev.20150828',
+253 silly addNameRange     '1.7.0-dev.20150829',
+253 silly addNameRange     '1.7.0-dev.20150830',
+253 silly addNameRange     '1.7.0-dev.20150831',
+253 silly addNameRange     '1.7.0-dev.20150901',
+253 silly addNameRange     '1.7.0-dev.20150902',
+253 silly addNameRange     '1.6.0-beta',
+253 silly addNameRange     '1.7.0-dev.20150903',
+253 silly addNameRange     '1.7.0-dev.20150904',
+253 silly addNameRange     '1.6.0-dev.20150905',
+253 silly addNameRange     '1.6.0-dev.20150906',
+253 silly addNameRange     '1.6.0-dev.20150907',
+253 silly addNameRange     '1.6.0-dev.20150908',
+253 silly addNameRange     '1.6.0-dev.20150909',
+253 silly addNameRange     '1.6.0-dev.20150910',
+253 silly addNameRange     '1.6.0-dev.20150911',
+253 silly addNameRange     '1.6.0-dev.20150912',
+253 silly addNameRange     '1.6.0-dev.20150913',
+253 silly addNameRange     '1.6.0-dev.20150914',
+253 silly addNameRange     '1.6.0-dev.20150915',
+253 silly addNameRange     '1.7.0-dev.20150916',
+253 silly addNameRange     '1.6.2',
+253 silly addNameRange     '1.7.0-dev.20150917',
+253 silly addNameRange     '1.7.0-dev.20150918',
+253 silly addNameRange     '1.7.0-dev.20150919',
+253 silly addNameRange     '1.7.0-dev.20150920',
+253 silly addNameRange     '1.7.0-dev.20150921',
+253 silly addNameRange     '1.7.0-dev.20150922',
+253 silly addNameRange     '1.7.0-dev.20150923',
+253 silly addNameRange     '1.7.0-dev.20150924',
+253 silly addNameRange     '1.7.0-dev.20150925',
+253 silly addNameRange     '1.7.0-dev.20150926',
+253 silly addNameRange     '1.7.0-dev.20150927',
+253 silly addNameRange     '1.7.0-dev.20150928',
+253 silly addNameRange     '1.7.0-dev.20150929',
+253 silly addNameRange     '1.7.0-dev.20150930',
+253 silly addNameRange     '1.7.0-dev.20151001',
+253 silly addNameRange     '1.7.0-dev.20151002',
+253 silly addNameRange     '1.7.0-dev.20151003',
+253 silly addNameRange     '1.7.0-dev.20151004',
+253 silly addNameRange     '1.7.0-dev.20151005',
+253 silly addNameRange     '1.7.0-dev.20151006',
+253 silly addNameRange     '1.7.0-dev.20151014',
+253 silly addNameRange     '1.7.0-dev.20151015',
+253 silly addNameRange     '1.7.0-dev.20151016',
+253 silly addNameRange     '1.8.0-dev.20151017',
+253 silly addNameRange     '1.8.0-dev.20151018',
+253 silly addNameRange     '1.8.0-dev.20151019',
+253 silly addNameRange     '1.8.0-dev.20151020',
+253 silly addNameRange     '1.8.0-dev.20151021',
+253 silly addNameRange     '1.8.0-dev.20151022',
+253 silly addNameRange     '1.8.0-dev.20151023',
+253 silly addNameRange     '1.8.0-dev.20151024',
+253 silly addNameRange     '1.8.0-dev.20151025',
+253 silly addNameRange     '1.8.0-dev.20151026',
+253 silly addNameRange     '1.8.0-dev.20151027',
+253 silly addNameRange     '1.8.0-dev.20151028',
+253 silly addNameRange     '1.8.0-dev.20151029',
+253 silly addNameRange     '1.8.0-dev.20151030',
+253 silly addNameRange     '1.8.0-dev.20151031',
+253 silly addNameRange     '1.8.0-dev.20151101',
+253 silly addNameRange     '1.8.0-dev.20151102',
+253 silly addNameRange     '1.8.0-dev.20151103',
+253 silly addNameRange     '1.8.0-dev.20151104',
+253 silly addNameRange     '1.8.0-dev.20151105',
+253 silly addNameRange     '1.8.0-dev.20151106',
+253 silly addNameRange     '1.8.0-dev.20151107',
+253 silly addNameRange     '1.8.0-dev.20151108',
+253 silly addNameRange     '1.8.0-dev.20151109',
+253 silly addNameRange     '1.8.0-dev.20151110',
+253 silly addNameRange     '1.8.0-dev.20151111',
+253 silly addNameRange     '1.8.0-dev.20151112',
+253 silly addNameRange     '1.8.0-dev.20151113',
+253 silly addNameRange     '1.8.0-dev.20151114',
+253 silly addNameRange     '1.8.0-dev.20151115',
+253 silly addNameRange     '1.8.0-dev.20151116',
+253 silly addNameRange     '1.8.0-dev.20151117',
+253 silly addNameRange     '1.8.0-dev.20151118',
+253 silly addNameRange     '1.8.0-dev.20151119',
+253 silly addNameRange     '1.8.0-dev.20151120',
+253 silly addNameRange     '1.8.0-dev.20151121',
+253 silly addNameRange     '1.8.0-dev.20151122',
+253 silly addNameRange     '1.8.0-dev.20151123',
+253 silly addNameRange     '1.8.0-dev.20151124',
+253 silly addNameRange     '1.8.0-dev.20151125',
+253 silly addNameRange     '1.8.0-dev.20151126',
+253 silly addNameRange     '1.8.0-dev.20151127',
+253 silly addNameRange     '1.8.0-dev.20151128',
+253 silly addNameRange     '1.8.0-dev.20151129',
+253 silly addNameRange     '1.8.0-dev.20151130',
+253 silly addNameRange     '1.7.3',
+253 silly addNameRange     '1.8.0-dev.20151201',
+253 silly addNameRange     '1.8.0-dev.20151202',
+253 silly addNameRange     '1.8.0-dev.20151203',
+253 silly addNameRange     '1.8.0-dev.20151204',
+253 silly addNameRange     '1.8.0-dev.20151210',
+253 silly addNameRange     '1.8.0-dev.20151211',
+253 silly addNameRange     '1.8.0-dev.20151212',
+253 silly addNameRange     '1.8.0-dev.20151213',
+253 silly addNameRange     '1.8.0-dev.20151214',
+253 silly addNameRange     '1.7.5',
+253 silly addNameRange     '1.8.0-dev.20151215',
+253 silly addNameRange     '1.8.0-dev.20151216',
+253 silly addNameRange     '1.8.0-dev.20151217',
+253 silly addNameRange     '1.8.0-dev.20151218',
+253 silly addNameRange     '1.8.0-dev.20151219',
+253 silly addNameRange     '1.8.0-dev.20151220',
+253 silly addNameRange     '1.8.0-dev.20151221',
+253 silly addNameRange     '1.8.0-dev.20151222',
+253 silly addNameRange     '1.8.0-dev.20151223',
+253 silly addNameRange     '1.8.0-dev.20151224',
+253 silly addNameRange     '1.8.0-dev.20151225',
+253 silly addNameRange     '1.8.0-dev.20151226',
+253 silly addNameRange     '1.8.0-dev.20151227',
+253 silly addNameRange     '1.8.0-dev.20151228',
+253 silly addNameRange     '1.8.0-dev.20151229',
+253 silly addNameRange     '1.8.0-dev.20151230',
+253 silly addNameRange     '1.8.0-dev.20151231',
+253 silly addNameRange     '1.8.0-dev.20160101',
+253 silly addNameRange     '1.8.0-dev.20160102',
+253 silly addNameRange     '1.8.0-dev.20160103',
+253 silly addNameRange     '1.8.0-dev.20160104',
+253 silly addNameRange     '1.8.0-dev.20160105',
+253 silly addNameRange     '1.8.0-dev.20160106',
+253 silly addNameRange     '1.8.0-dev.20160107',
+253 silly addNameRange     '1.8.0-dev.20160108',
+253 silly addNameRange     '1.8.0-dev.20160109',
+253 silly addNameRange     '1.8.0-dev.20160110',
+253 silly addNameRange     '1.8.0-dev.20160111',
+253 silly addNameRange     '1.8.0-dev.20160112',
+253 silly addNameRange     '1.8.0-dev.20160113',
+253 silly addNameRange     '1.8.0-dev.20160114',
+253 silly addNameRange     '1.8.0-dev.20160115',
+253 silly addNameRange     '1.8.0-dev.20160116',
+253 silly addNameRange     '1.8.0-dev.20160117',
+253 silly addNameRange     '1.8.0-dev.20160118',
+253 silly addNameRange     '1.8.0-dev.20160119',
+253 silly addNameRange     '1.8.0-dev.20160120',
+253 silly addNameRange     '1.8.0-dev.20160121',
+253 silly addNameRange     '1.8.0-dev.20160122',
+253 silly addNameRange     '1.8.0-dev.20160123',
+253 silly addNameRange     '1.8.0-dev.20160124',
+253 silly addNameRange     '1.8.0-dev.20160125',
+253 silly addNameRange     '1.9.0-dev.20160126',
+253 silly addNameRange     '1.9.0-dev.20160127',
+253 silly addNameRange     '1.9.0-dev.20160128',
+253 silly addNameRange     '1.8.0',
+253 silly addNameRange     '1.9.0-dev.20160129',
+253 silly addNameRange     '1.9.0-dev.20160130',
+253 silly addNameRange     '1.9.0-dev.20160131',
+253 silly addNameRange     '1.9.0-dev.20160201',
+253 silly addNameRange     '1.9.0-dev.20160202',
+253 silly addNameRange     '1.9.0-dev.20160203',
+253 silly addNameRange     '1.9.0-dev.20160204',
+253 silly addNameRange     '1.9.0-dev.20160205',
+253 silly addNameRange     '1.9.0-dev.20160206',
+253 silly addNameRange     '1.9.0-dev.20160207',
+253 silly addNameRange     '1.9.0-dev.20160208',
+253 silly addNameRange     '1.9.0-dev.20160209',
+253 silly addNameRange     '1.9.0-dev.20160210',
+253 silly addNameRange     '1.9.0-dev.20160211',
+253 silly addNameRange     '1.9.0-dev.20160212',
+253 silly addNameRange     '1.9.0-dev.20160213',
+253 silly addNameRange     '1.9.0-dev.20160214',
+253 silly addNameRange     '1.9.0-dev.20160215',
+253 silly addNameRange     '1.9.0-dev.20160216',
+253 silly addNameRange     '1.9.0-dev.20160217',
+253 silly addNameRange     '1.9.0-dev.20160218',
+253 silly addNameRange     '1.9.0-dev.20160219',
+253 silly addNameRange     '1.9.0-dev.20160220',
+253 silly addNameRange     '1.9.0-dev.20160221',
+253 silly addNameRange     '1.9.0-dev.20160222',
+253 silly addNameRange     '1.8.2',
+253 silly addNameRange     '1.9.0-dev.20160223',
+253 silly addNameRange     '1.9.0-dev.20160224',
+253 silly addNameRange     '1.9.0-dev.20160225',
+253 silly addNameRange     '1.9.0-dev.20160226',
+253 silly addNameRange     '1.9.0-dev.20160227',
+253 silly addNameRange     '1.9.0-dev.20160228',
+253 silly addNameRange     '1.9.0-dev.20160229',
+253 silly addNameRange     '1.9.0-dev.20160301',
+253 silly addNameRange     '1.8.5',
+253 silly addNameRange     '1.8.6',
+253 silly addNameRange     '1.8.7',
+253 silly addNameRange     '1.9.0-dev.20160302',
+253 silly addNameRange     '1.9.0-dev.20160302.1',
+253 silly addNameRange     '1.9.0-dev.20160303',
+253 silly addNameRange     '1.9.0-dev.20160304',
+253 silly addNameRange     '1.9.0-dev.20160305',
+253 silly addNameRange     '1.9.0-dev.20160306',
+253 silly addNameRange     '1.9.0-dev.20160307',
+253 silly addNameRange     '1.9.0-dev.20160308',
+253 silly addNameRange     '1.9.0-dev.20160309',
+253 silly addNameRange     '1.9.0-dev.20160310',
+253 silly addNameRange     '1.9.0-dev.20160311',
+253 silly addNameRange     '1.9.0-dev.20160312',
+253 silly addNameRange     '1.9.0-dev.20160313',
+253 silly addNameRange     '1.9.0-dev.20160315',
+253 silly addNameRange     '1.9.0-dev.20160316',
+253 silly addNameRange     '1.8.9',
+253 silly addNameRange     '1.9.0-dev.20160317',
+253 silly addNameRange     '1.9.0-dev.20160318',
+253 silly addNameRange     '1.9.0-dev.20160319',
+253 silly addNameRange     '1.9.0-dev.20160320',
+253 silly addNameRange     '1.9.0-dev.20160321',
+253 silly addNameRange     '1.9.0-dev.20160322',
+253 silly addNameRange     '1.9.0-dev.20160323',
+253 silly addNameRange     '1.9.0-dev.20160324',
+253 silly addNameRange     '1.9.0-dev.20160325',
+253 silly addNameRange     '1.9.0-dev.20160326',
+253 silly addNameRange     '1.9.0-dev.20160327',
+253 silly addNameRange     '1.9.0-dev.20160328',
+253 silly addNameRange     '1.9.0-dev.20160329',
+253 silly addNameRange     '1.9.0-dev.20160330',
+253 silly addNameRange     '1.9.0-dev.20160331',
+253 silly addNameRange     '1.9.0-dev.20160401',
+253 silly addNameRange     '1.9.0-dev.20160402',
+253 silly addNameRange     '1.9.0-dev.20160403',
+253 silly addNameRange     '1.9.0-dev.20160404',
+253 silly addNameRange     '1.9.0-dev.20160405',
+253 silly addNameRange     '1.9.0-dev.20160406',
+253 silly addNameRange     '1.9.0-dev.20160407',
+253 silly addNameRange     '1.9.0-dev.20160408',
+253 silly addNameRange     '1.9.0-dev.20160409' ] ]
+254 silly addNamed typescript@1.8.9
+255 verbose addNamed "1.8.9" is a plain semver version for typescript
+256 silly cache afterAdd rxjs@5.0.0-beta.2
+257 verbose afterAdd /Users/Chris/.npm/rxjs/5.0.0-beta.2/package/package.json not in flight; writing
+258 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+259 silly cache afterAdd reflect-metadata@0.1.2
+260 verbose afterAdd /Users/Chris/.npm/reflect-metadata/0.1.2/package/package.json not in flight; writing
+261 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+262 silly cache afterAdd systemjs@0.19.25
+263 verbose afterAdd /Users/Chris/.npm/systemjs/0.19.25/package/package.json not in flight; writing
+264 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+265 silly cache afterAdd zone.js@0.6.6
+266 verbose afterAdd /Users/Chris/.npm/zone.js/0.6.6/package/package.json not in flight; writing
+267 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+268 silly cache afterAdd angular2@2.0.0-beta.14
+269 verbose afterAdd /Users/Chris/.npm/angular2/2.0.0-beta.14/package/package.json not in flight; writing
+270 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+271 silly cache afterAdd lite-server@2.2.0
+272 verbose afterAdd /Users/Chris/.npm/lite-server/2.2.0/package/package.json not in flight; writing
+273 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+274 silly cache afterAdd typings@0.7.12
+275 verbose afterAdd /Users/Chris/.npm/typings/0.7.12/package/package.json not in flight; writing
+276 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+277 silly cache afterAdd es6-shim@0.35.0
+278 verbose afterAdd /Users/Chris/.npm/es6-shim/0.35.0/package/package.json not in flight; writing
+279 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+280 silly cache afterAdd concurrently@2.0.0
+281 verbose afterAdd /Users/Chris/.npm/concurrently/2.0.0/package/package.json not in flight; writing
+282 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+283 silly cache afterAdd typescript@1.8.9
+284 verbose afterAdd /Users/Chris/.npm/typescript/1.8.9/package/package.json not in flight; writing
+285 verbose correctMkdir /Users/Chris/.npm correctMkdir not in flight; initializing
+286 verbose afterAdd /Users/Chris/.npm/rxjs/5.0.0-beta.2/package/package.json written
+287 verbose afterAdd /Users/Chris/.npm/reflect-metadata/0.1.2/package/package.json written
+288 verbose afterAdd /Users/Chris/.npm/zone.js/0.6.6/package/package.json written
+289 verbose afterAdd /Users/Chris/.npm/systemjs/0.19.25/package/package.json written
+290 verbose afterAdd /Users/Chris/.npm/angular2/2.0.0-beta.14/package/package.json written
+291 verbose afterAdd /Users/Chris/.npm/lite-server/2.2.0/package/package.json written
+292 verbose afterAdd /Users/Chris/.npm/typings/0.7.12/package/package.json written
+293 verbose afterAdd /Users/Chris/.npm/es6-shim/0.35.0/package/package.json written
+294 verbose afterAdd /Users/Chris/.npm/concurrently/2.0.0/package/package.json written
+295 verbose afterAdd /Users/Chris/.npm/typescript/1.8.9/package/package.json written
+296 silly install resolved [ { config: { commitizen: [Object], ghooks: [Object] },
+296 silly install resolved     name: 'rxjs',
+296 silly install resolved     license: 'Apache-2.0',
+296 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+296 silly install resolved     author: { name: 'Ben Lesh', email: 'blesh@netflix.com' },
+296 silly install resolved     engines: { npm: '>=2.0.0' },
+296 silly install resolved     repository:
+296 silly install resolved      { type: 'git',
+296 silly install resolved        url: 'git+ssh://git@github.com/ReactiveX/RxJS.git' },
+296 silly install resolved     main: 'Rx.js',
+296 silly install resolved     version: '5.0.0-beta.2',
+296 silly install resolved     keywords:
+296 silly install resolved      [ 'Rx',
+296 silly install resolved        'RxJS',
+296 silly install resolved        'ReactiveX',
+296 silly install resolved        'ReactiveExtensions',
+296 silly install resolved        'Streams',
+296 silly install resolved        'Observables',
+296 silly install resolved        'Observable',
+296 silly install resolved        'Stream',
+296 silly install resolved        'ES6',
+296 silly install resolved        'ES2015' ],
+296 silly install resolved     bugs: { url: 'https://github.com/ReactiveX/RxJS/issues' },
+296 silly install resolved     devDependencies:
+296 silly install resolved      { benchmark: '1.0.0',
+296 silly install resolved        benchpress: '2.0.0-beta.1',
+296 silly install resolved        browserify: '11.0.0',
+296 silly install resolved        color: '^0.11.1',
+296 silly install resolved        colors: '1.1.2',
+296 silly install resolved        commitizen: '2.5.0',
+296 silly install resolved        coveralls: '2.11.6',
+296 silly install resolved        'cz-conventional-changelog': '1.1.5',
+296 silly install resolved        esdoc: '0.4.3',
+296 silly install resolved        eslint: '2.0.0-beta.3',
+296 silly install resolved        'fs-extra': '0.24.0',
+296 silly install resolved        ghooks: '0.3.2',
+296 silly install resolved        glob: '5.0.14',
+296 silly install resolved        gm: '1.21.1',
+296 silly install resolved        'google-closure-compiler': '20160125.0.0',
+296 silly install resolved        'gzip-size': '^3.0.0',
+296 silly install resolved        'http-server': '0.8.0',
+296 silly install resolved        istanbul: '0.4.2',
+296 silly install resolved        jasmine: '2.4.1',
+296 silly install resolved        'jasmine-ajax': '3.2.0',
+296 silly install resolved        'jasmine-core': '2.4.1',
+296 silly install resolved        karma: '0.13.19',
+296 silly install resolved        'karma-browserify': '^5.0.1',
+296 silly install resolved        'karma-chrome-launcher': '0.2.2',
+296 silly install resolved        'karma-jasmine': '^0.3.6',
+296 silly install resolved        'karma-sauce-launcher': '0.3.0',
+296 silly install resolved        lodash: '4.1.0',
+296 silly install resolved        madge: '^0.5.3',
+296 silly install resolved        'markdown-doctest': '^0.3.0',
+296 silly install resolved        minimist: '^1.2.0',
+296 silly install resolved        mkdirp: '^0.5.1',
+296 silly install resolved        platform: '1.3.0',
+296 silly install resolved        promise: '7.0.3',
+296 silly install resolved        protractor: '2.5.1',
+296 silly install resolved        'remap-istanbul': '0.5.1',
+296 silly install resolved        rx: 'latest',
+296 silly install resolved        systemjs: '^0.19.6',
+296 silly install resolved        'systemjs-builder': '^0.10.6',
+296 silly install resolved        tslint: '3.3.0-dev.2',
+296 silly install resolved        typescript: '1.9.0-dev.20160128',
+296 silly install resolved        'validate-commit-msg': '1.1.1',
+296 silly install resolved        watch: '0.16.0',
+296 silly install resolved        watchify: '3.7.0',
+296 silly install resolved        xmlhttprequest: '1.8.0' },
+296 silly install resolved     typings: 'Rx.d.ts',
+296 silly install resolved     description: 'Reactive Extensions for modern JavaScript',
+296 silly install resolved     homepage: 'https://github.com/ReactiveX/RxJS',
+296 silly install resolved     _id: 'rxjs@5.0.0-beta.2',
+296 silly install resolved     scripts: {},
+296 silly install resolved     _shasum: 'f775df8b8598c0657031e5ff8ff8251e1c5c0185',
+296 silly install resolved     _from: 'rxjs@5.0.0-beta.2',
+296 silly install resolved     _npmVersion: '3.3.10',
+296 silly install resolved     _nodeVersion: '5.0.0',
+296 silly install resolved     _npmUser: { name: 'blesh', email: 'ben@benlesh.com' },
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: 'f775df8b8598c0657031e5ff8ff8251e1c5c0185',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz' },
+296 silly install resolved     maintainers: [ [Object], [Object] ],
+296 silly install resolved     _npmOperationalInternal:
+296 silly install resolved      { host: 'packages-5-east.internal.npmjs.com',
+296 silly install resolved        tmp: 'tmp/rxjs-5.0.0-beta.2.tgz_1455138523425_0.768723902059719' },
+296 silly install resolved     directories: {},
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz',
+296 silly install resolved     readme: 'ERROR: No README data found!' },
+296 silly install resolved   { name: 'reflect-metadata',
+296 silly install resolved     version: '0.1.2',
+296 silly install resolved     description: 'Polyfill for Metadata Reflection API',
+296 silly install resolved     main: 'Reflect.js',
+296 silly install resolved     typescript: { definition: 'reflect-metadata.d.ts' },
+296 silly install resolved     scripts:
+296 silly install resolved      { build: 'tsc.cmd',
+296 silly install resolved        'build-test': 'tsc.cmd --project ./test/',
+296 silly install resolved        test: 'npm run-script build-test & node ./temp/test/run.js' },
+296 silly install resolved     repository:
+296 silly install resolved      { type: 'git',
+296 silly install resolved        url: 'git+https://github.com/rbuckton/ReflectDecorators.git' },
+296 silly install resolved     keywords: [ 'decorator', 'metadata', 'javascript', 'reflect' ],
+296 silly install resolved     author:
+296 silly install resolved      { name: 'Ron Buckton',
+296 silly install resolved        email: 'ron.buckton@microsoft.com',
+296 silly install resolved        url: 'http://github.com/rbuckton' },
+296 silly install resolved     licenses: [ [Object] ],
+296 silly install resolved     license: 'Apache-2.0',
+296 silly install resolved     bugs: { url: 'https://github.com/rbuckton/ReflectDecorators/issues' },
+296 silly install resolved     homepage: 'http://rbuckton.github.io/ReflectDecorators',
+296 silly install resolved     dependencies: {},
+296 silly install resolved     devDependencies: { typescript: '>=1.5.0-alpha' },
+296 silly install resolved     gitHead: '07dcd99c807a402b255065979d9485fbdc69924b',
+296 silly install resolved     _id: 'reflect-metadata@0.1.2',
+296 silly install resolved     _shasum: 'ea23e5823dc830f292822bd3da9b89fd57bffb03',
+296 silly install resolved     _from: 'reflect-metadata@0.1.2',
+296 silly install resolved     _npmVersion: '2.14.2',
+296 silly install resolved     _nodeVersion: '4.0.0',
+296 silly install resolved     _npmUser: { name: 'rbuckton', email: 'rbuckton@chronicles.org' },
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: 'ea23e5823dc830f292822bd3da9b89fd57bffb03',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz' },
+296 silly install resolved     maintainers: [ [Object] ],
+296 silly install resolved     directories: {},
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz',
+296 silly install resolved     readme: 'ERROR: No README data found!' },
+296 silly install resolved   { name: 'zone.js',
+296 silly install resolved     version: '0.6.6',
+296 silly install resolved     description: 'Zones for JavaScript',
+296 silly install resolved     main: 'dist/zone-node.js',
+296 silly install resolved     browser: 'dist/zone.js',
+296 silly install resolved     typings: 'dist/zone.js.d.ts',
+296 silly install resolved     files: [ 'lib', 'dist' ],
+296 silly install resolved     directories: { lib: 'lib', test: 'test' },
+296 silly install resolved     scripts:
+296 silly install resolved      { prepublish: 'typings install && ./node_modules/.bin/tsc && gulp build',
+296 silly install resolved        typings: 'typings install',
+296 silly install resolved        tsc: 'tsc',
+296 silly install resolved        'tsc:w': 'tsc -w',
+296 silly install resolved        test: 'karma start karma.conf.js',
+296 silly install resolved        serve: 'python -m SimpleHTTPServer 8000' },
+296 silly install resolved     repository: { type: 'git', url: 'git://github.com/angular/zone.js.git' },
+296 silly install resolved     author: { name: 'Brian Ford' },
+296 silly install resolved     license: 'MIT',
+296 silly install resolved     bugs: { url: 'https://github.com/angular/zone.js/issues' },
+296 silly install resolved     dependencies: {},
+296 silly install resolved     devDependencies:
+296 silly install resolved      { 'es6-promise': '^3.0.2',
+296 silly install resolved        gulp: '^3.8.11',
+296 silly install resolved        'gulp-rename': '^1.2.2',
+296 silly install resolved        'gulp-tsc': '^1.1.4',
+296 silly install resolved        'gulp-uglify': '^1.2.0',
+296 silly install resolved        'gulp-util': '^3.0.7',
+296 silly install resolved        'jasmine-core': '^2.2.0',
+296 silly install resolved        karma: '^0.13.14',
+296 silly install resolved        'karma-chrome-launcher': '^0.2.1',
+296 silly install resolved        'karma-firefox-launcher': '^0.1.4',
+296 silly install resolved        'karma-jasmine': '^0.3.6',
+296 silly install resolved        'karma-safari-launcher': '^0.1.1',
+296 silly install resolved        'karma-sauce-launcher': '^0.2.10',
+296 silly install resolved        'karma-sourcemap-loader': '^0.3.6',
+296 silly install resolved        'karma-webpack': '^1.7.0',
+296 silly install resolved        'nodejs-websocket': '^1.2.0',
+296 silly install resolved        'ts-loader': '^0.6.0',
+296 silly install resolved        typescript: '^1.8.0',
+296 silly install resolved        typings: '^0.6.6',
+296 silly install resolved        'vinyl-buffer': '^1.0.0',
+296 silly install resolved        'vinyl-source-stream': '^1.1.0',
+296 silly install resolved        webpack: '^1.12.2' },
+296 silly install resolved     gitHead: '52073b2dba01a5bc16eb888a3af563e3af7cdb39',
+296 silly install resolved     homepage: 'https://github.com/angular/zone.js#readme',
+296 silly install resolved     _id: 'zone.js@0.6.6',
+296 silly install resolved     _shasum: '003ea8d9a8921862fac19811a8c4b1d90bb764a4',
+296 silly install resolved     _from: 'zone.js@0.6.6',
+296 silly install resolved     _npmVersion: '3.7.3',
+296 silly install resolved     _nodeVersion: '5.5.0',
+296 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: '003ea8d9a8921862fac19811a8c4b1d90bb764a4',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz' },
+296 silly install resolved     maintainers: [ [Object], [Object] ],
+296 silly install resolved     _npmOperationalInternal:
+296 silly install resolved      { host: 'packages-13-west.internal.npmjs.com',
+296 silly install resolved        tmp: 'tmp/zone.js-0.6.6.tgz_1458761048012_0.9044781001284719' },
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz',
+296 silly install resolved     readme: 'ERROR: No README data found!' },
+296 silly install resolved   { name: 'systemjs',
+296 silly install resolved     version: '0.19.25',
+296 silly install resolved     description: 'Universal dynamic module loader',
+296 silly install resolved     repository: { type: 'git', url: 'git://github.com/systemjs/systemjs.git' },
+296 silly install resolved     author: { name: 'Guy Bedford' },
+296 silly install resolved     license: 'MIT',
+296 silly install resolved     dependencies: { when: '^3.7.5' },
+296 silly install resolved     devDependencies:
+296 silly install resolved      { 'babel-core': '^5.8.22',
+296 silly install resolved        qunit: '^0.6.2',
+296 silly install resolved        traceur: '0.0.105',
+296 silly install resolved        typescript: '^1.6.2',
+296 silly install resolved        'uglify-js': '~2.4.23' },
+296 silly install resolved     scripts:
+296 silly install resolved      { 'test:browser': 'make test',
+296 silly install resolved        build: 'make',
+296 silly install resolved        test: 'npm run test:babel && npm run test:traceur && npm run test:typescript',
+296 silly install resolved        'test:babel': 'qunit -c s:./index.js -t ./test/test-babel.js',
+296 silly install resolved        'test:traceur': 'qunit -c s:./index.js -t ./test/test-traceur.js',
+296 silly install resolved        'test:typescript': 'qunit -c s:./index.js -t ./test/test-typescript.js' },
+296 silly install resolved     gitHead: 'd3196ce9fd877f423757f7ad415fd75110956043',
+296 silly install resolved     bugs: { url: 'https://github.com/systemjs/systemjs/issues' },
+296 silly install resolved     homepage: 'https://github.com/systemjs/systemjs#readme',
+296 silly install resolved     _id: 'systemjs@0.19.25',
+296 silly install resolved     _shasum: 'e7e45e8b7f95c4a65d4d8c75087ae0d891dea951',
+296 silly install resolved     _from: 'systemjs@0.19.25',
+296 silly install resolved     _npmVersion: '2.14.20',
+296 silly install resolved     _nodeVersion: '4.4.1',
+296 silly install resolved     _npmUser: { name: 'guybedford', email: 'guybedford@gmail.com' },
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: 'e7e45e8b7f95c4a65d4d8c75087ae0d891dea951',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/systemjs/-/systemjs-0.19.25.tgz' },
+296 silly install resolved     maintainers: [ [Object] ],
+296 silly install resolved     _npmOperationalInternal:
+296 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+296 silly install resolved        tmp: 'tmp/systemjs-0.19.25.tgz_1459338580759_0.8134937535505742' },
+296 silly install resolved     directories: {},
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/systemjs/-/systemjs-0.19.25.tgz',
+296 silly install resolved     readme: 'ERROR: No README data found!' },
+296 silly install resolved   { name: 'angular2',
+296 silly install resolved     version: '2.0.0-beta.14',
+296 silly install resolved     description: 'Angular 2 - a web framework for modern web apps',
+296 silly install resolved     homepage: 'https://github.com/angular/angular',
+296 silly install resolved     bugs: { url: 'https://github.com/angular/angular/issues' },
+296 silly install resolved     contributors:
+296 silly install resolved      [ [Object],
+296 silly install resolved        [Object],
+296 silly install resolved        [Object],
+296 silly install resolved        [Object],
+296 silly install resolved        [Object],
+296 silly install resolved        [Object],
+296 silly install resolved        [Object],
+296 silly install resolved        [Object],
+296 silly install resolved        [Object],
+296 silly install resolved        [Object] ],
+296 silly install resolved     license: 'MIT',
+296 silly install resolved     repository:
+296 silly install resolved      { type: 'git',
+296 silly install resolved        url: 'git+https://github.com/angular/angular.git' },
+296 silly install resolved     devDependencies: {},
+296 silly install resolved     peerDependencies:
+296 silly install resolved      { 'es6-shim': '^0.35.0',
+296 silly install resolved        'reflect-metadata': '0.1.2',
+296 silly install resolved        rxjs: '5.0.0-beta.2',
+296 silly install resolved        'zone.js': '^0.6.6' },
+296 silly install resolved     _id: 'angular2@2.0.0-beta.14',
+296 silly install resolved     scripts: {},
+296 silly install resolved     _shasum: '86d3e195ec1e5069168c14bc60a7dcab56b7dfdf',
+296 silly install resolved     _from: 'angular2@2.0.0-beta.14',
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.14.tgz',
+296 silly install resolved     _npmVersion: '3.6.0',
+296 silly install resolved     _nodeVersion: '5.5.0',
+296 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: '86d3e195ec1e5069168c14bc60a7dcab56b7dfdf',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.14.tgz' },
+296 silly install resolved     maintainers: [ [Object] ],
+296 silly install resolved     _npmOperationalInternal:
+296 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+296 silly install resolved        tmp: 'tmp/angular2-2.0.0-beta.14.tgz_1460049930698_0.5656932985875756' },
+296 silly install resolved     directories: {},
+296 silly install resolved     readme: 'ERROR: No README data found!' },
+296 silly install resolved   { name: 'lite-server',
+296 silly install resolved     version: '2.2.0',
+296 silly install resolved     description: 'Lightweight development node server for serving a web app, providing a fallback for browser history API, loading in the browser, and injecting scripts on the fly.',
+296 silly install resolved     main: 'index.js',
+296 silly install resolved     scripts: { test: 'eslint *.js lib/*.js' },
+296 silly install resolved     repository:
+296 silly install resolved      { type: 'git',
+296 silly install resolved        url: 'git+https://github.com/johnpapa/lite-server.git' },
+296 silly install resolved     keywords: [],
+296 silly install resolved     contributors: [ [Object], [Object] ],
+296 silly install resolved     license: 'MIT',
+296 silly install resolved     bin: { 'lite-server': './bin/lite-server' },
+296 silly install resolved     homepage: 'https://github.com/johnpapa/lite-server#readme',
+296 silly install resolved     dependencies:
+296 silly install resolved      { 'browser-sync': '^2.11.2',
+296 silly install resolved        'connect-history-api-fallback': '^1.2.0',
+296 silly install resolved        'connect-logger': '0.0.1',
+296 silly install resolved        lodash: '^4.6.1',
+296 silly install resolved        minimist: '1.2.0' },
+296 silly install resolved     devDependencies: { eslint: '^2.4.0' },
+296 silly install resolved     gitHead: '98fcd085b6d9f5b78565a4231686231088d24aba',
+296 silly install resolved     bugs: { url: 'https://github.com/johnpapa/lite-server/issues' },
+296 silly install resolved     _id: 'lite-server@2.2.0',
+296 silly install resolved     _shasum: 'a4194ed1a9fa3210c6ab15882e1413a31a572689',
+296 silly install resolved     _from: 'lite-server@>=2.2.0 <3.0.0',
+296 silly install resolved     _npmVersion: '2.14.3',
+296 silly install resolved     _nodeVersion: '4.2.2',
+296 silly install resolved     _npmUser: { name: 'johnpapa', email: 'john@johnpapa.net' },
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: 'a4194ed1a9fa3210c6ab15882e1413a31a572689',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/lite-server/-/lite-server-2.2.0.tgz' },
+296 silly install resolved     maintainers: [ [Object] ],
+296 silly install resolved     _npmOperationalInternal:
+296 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+296 silly install resolved        tmp: 'tmp/lite-server-2.2.0.tgz_1459784960551_0.1361763330642134' },
+296 silly install resolved     directories: {},
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/lite-server/-/lite-server-2.2.0.tgz',
+296 silly install resolved     readme: 'ERROR: No README data found!' },
+296 silly install resolved   { name: 'typings',
+296 silly install resolved     version: '0.7.12',
+296 silly install resolved     description: 'The TypeScript Definition Manager',
+296 silly install resolved     main: 'dist/typings.js',
+296 silly install resolved     bin: { typings: 'dist/bin.js' },
+296 silly install resolved     files: [ 'dist/', 'typings.json' ],
+296 silly install resolved     scripts:
+296 silly install resolved      { lint: 'tslint \'src/**/*.ts\'',
+296 silly install resolved        build: 'rimraf dist/ && tsc',
+296 silly install resolved        docs: 'node scripts/docs-commands.js',
+296 silly install resolved        'dependency-check': 'dependency-check . --entry dist/bin.js --missing --no-dev && dependency-check . --entry dist/bin.js --unused --no-dev -i bluebird',
+296 silly install resolved        test: 'npm run lint && npm run build && npm run dependency-check',
+296 silly install resolved        prepublish: 'node -e "require(\'typings-core\').install({ cwd: process.cwd() })" && npm run build' },
+296 silly install resolved     repository: { type: 'git', url: 'git://github.com/typings/typings.git' },
+296 silly install resolved     keywords:
+296 silly install resolved      [ 'typings',
+296 silly install resolved        'typescript',
+296 silly install resolved        'definition',
+296 silly install resolved        'declaration',
+296 silly install resolved        'package',
+296 silly install resolved        'manager',
+296 silly install resolved        'typed' ],
+296 silly install resolved     author:
+296 silly install resolved      { name: 'Blake Embrey',
+296 silly install resolved        email: 'hello@blakeembrey.com',
+296 silly install resolved        url: 'http://blakeembrey.me' },
+296 silly install resolved     license: 'MIT',
+296 silly install resolved     bugs: { url: 'https://github.com/typings/typings/issues' },
+296 silly install resolved     homepage: 'https://github.com/typings/typings',
+296 silly install resolved     dependencies:
+296 silly install resolved      { 'any-promise': '^1.0.0',
+296 silly install resolved        archy: '^1.0.0',
+296 silly install resolved        bluebird: '^3.1.1',
+296 silly install resolved        chalk: '^1.0.0',
+296 silly install resolved        columnify: '^1.5.2',
+296 silly install resolved        listify: '^1.0.0',
+296 silly install resolved        minimist: '^1.2.0',
+296 silly install resolved        'typings-core': '^0.2.15',
+296 silly install resolved        'update-notifier': '^0.6.0',
+296 silly install resolved        wordwrap: '^1.0.0',
+296 silly install resolved        xtend: '^4.0.1' },
+296 silly install resolved     devDependencies:
+296 silly install resolved      { 'dependency-check': '^2.5.1',
+296 silly install resolved        nock: '^7.2.2',
+296 silly install resolved        rimraf: '^2.5.2',
+296 silly install resolved        'ts-node': '^0.7.0',
+296 silly install resolved        tslint: '^3.5.0',
+296 silly install resolved        typescript: '^1.8.7' },
+296 silly install resolved     gitHead: 'f5de1991a9bf21727db12143bfd9cb8c64972ca5',
+296 silly install resolved     _id: 'typings@0.7.12',
+296 silly install resolved     _shasum: 'c1066344e7e2a3593e425d31ffe3cdb3a8f6c894',
+296 silly install resolved     _from: 'typings@>=0.7.12 <0.8.0',
+296 silly install resolved     _npmVersion: '3.7.3',
+296 silly install resolved     _nodeVersion: '5.8.0',
+296 silly install resolved     _npmUser: { name: 'blakeembrey', email: 'hello@blakeembrey.com' },
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: 'c1066344e7e2a3593e425d31ffe3cdb3a8f6c894',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/typings/-/typings-0.7.12.tgz' },
+296 silly install resolved     maintainers: [ [Object] ],
+296 silly install resolved     _npmOperationalInternal:
+296 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+296 silly install resolved        tmp: 'tmp/typings-0.7.12.tgz_1459732281364_0.547857501078397' },
+296 silly install resolved     directories: {},
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/typings/-/typings-0.7.12.tgz',
+296 silly install resolved     readme: 'ERROR: No README data found!' },
+296 silly install resolved   { name: 'es6-shim',
+296 silly install resolved     version: '0.35.0',
+296 silly install resolved     author: { name: 'Paul Miller', url: 'http://paulmillr.com' },
+296 silly install resolved     description: 'ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines',
+296 silly install resolved     keywords:
+296 silly install resolved      [ 'ecmascript',
+296 silly install resolved        'harmony',
+296 silly install resolved        'es6',
+296 silly install resolved        'shim',
+296 silly install resolved        'promise',
+296 silly install resolved        'promises',
+296 silly install resolved        'setPrototypeOf',
+296 silly install resolved        'map',
+296 silly install resolved        'set',
+296 silly install resolved        '__proto__' ],
+296 silly install resolved     homepage: 'https://github.com/paulmillr/es6-shim/',
+296 silly install resolved     license: 'MIT',
+296 silly install resolved     repository: { type: 'git', url: 'git://github.com/paulmillr/es6-shim.git' },
+296 silly install resolved     main: 'es6-shim',
+296 silly install resolved     scripts:
+296 silly install resolved      { test: 'npm run lint && evalmd *.md && npm run tests-only',
+296 silly install resolved        'tests-only': 'npm run test:shim && npm run test:sham',
+296 silly install resolved        'test:shim': 'mocha test/*.js test/*/*.js',
+296 silly install resolved        'test:sham': 'mocha test-sham/*.js',
+296 silly install resolved        'test:native': 'NO_ES6_SHIM=1 npm run tests-only',
+296 silly install resolved        lint: 'npm run lint:shim && npm run lint:sham',
+296 silly install resolved        'lint:shim': 'npm run jshint:shim && npm run jscs:shim && npm run eslint:shim',
+296 silly install resolved        'lint:sham': 'npm run jshint:sham && npm run jscs:sham && npm run eslint:sham',
+296 silly install resolved        eslint: 'npm run eslint:shim && npm run eslint:sham',
+296 silly install resolved        'eslint:shim': 'eslint es6-shim.js test/*.js test/*/*.js',
+296 silly install resolved        'eslint:sham': 'eslint es6-sham.js test-sham/*.js',
+296 silly install resolved        jshint: 'npm run jshint:shim && npm run jshint:sham',
+296 silly install resolved        'jshint:shim': 'jshint es6-shim.js test/*.js test/*/*.js',
+296 silly install resolved        'jshint:sham': 'jshint es6-sham.js test-sham/*.js',
+296 silly install resolved        jscs: 'npm run jscs:shim && npm run jscs:sham',
+296 silly install resolved        'jscs:shim': 'jscs es6-shim.js test/*.js test/*/*.js',
+296 silly install resolved        'jscs:sham': 'jscs es6-sham.js test-sham/*.js',
+296 silly install resolved        minify: 'npm run minify:shim && npm run minify:sham',
+296 silly install resolved        'minify:shim': 'uglifyjs es6-shim.js --keep-fnames --comments --source-map=es6-shim.map -m -b ascii_only=true,beautify=false > es6-shim.min.js',
+296 silly install resolved        'minify:sham': 'uglifyjs es6-sham.js --keep-fnames --comments --source-map=es6-sham.map -m -b ascii_only=true,beautify=false > es6-sham.min.js',
+296 silly install resolved        'sauce-connect': 'curl -L https://gist.githubusercontent.com/henrikhodne/9322897/raw/sauce-connect.sh | bash && export TRAVIS_SAUCE_CONNECT=true',
+296 silly install resolved        sauce: 'npm run sauce-connect && grunt sauce' },
+296 silly install resolved     testling: { html: 'testling.html', browsers: [Object] },
+296 silly install resolved     dependencies: {},
+296 silly install resolved     devDependencies:
+296 silly install resolved      { chai: '^3.5.0',
+296 silly install resolved        'es5-shim': '^4.5.2',
+296 silly install resolved        eslint: '^1.10.3',
+296 silly install resolved        '@ljharb/eslint-config': '^1.6.1',
+296 silly install resolved        grunt: '^0.4.5',
+296 silly install resolved        'grunt-contrib-connect': '^0.11.2',
+296 silly install resolved        'grunt-contrib-watch': '^0.6.1',
+296 silly install resolved        'grunt-saucelabs': '^8.6.2',
+296 silly install resolved        jscs: '^2.9.0',
+296 silly install resolved        jshint: '^2.9.1',
+296 silly install resolved        mocha: '^2.4.5',
+296 silly install resolved        'promises-aplus-tests': '^2.1.1',
+296 silly install resolved        'promises-es6-tests': '^0.5.0',
+296 silly install resolved        'uglify-js': '^2.6.1',
+296 silly install resolved        evalmd: '^0.0.16' },
+296 silly install resolved     gitHead: 'b9eda4eb91e38664a31c6d7aacf95f82a7930528',
+296 silly install resolved     bugs: { url: 'https://github.com/paulmillr/es6-shim/issues' },
+296 silly install resolved     _id: 'es6-shim@0.35.0',
+296 silly install resolved     _shasum: '272d927950889eabe299927cdc9c0010b7bfc00a',
+296 silly install resolved     _from: 'es6-shim@>=0.35.0 <0.36.0',
+296 silly install resolved     _npmVersion: '3.6.0',
+296 silly install resolved     _nodeVersion: '5.6.0',
+296 silly install resolved     _npmUser: { name: 'ljharb', email: 'ljharb@gmail.com' },
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: '272d927950889eabe299927cdc9c0010b7bfc00a',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz' },
+296 silly install resolved     maintainers: [ [Object], [Object] ],
+296 silly install resolved     _npmOperationalInternal:
+296 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+296 silly install resolved        tmp: 'tmp/es6-shim-0.35.0.tgz_1456810887545_0.9192371929530054' },
+296 silly install resolved     directories: {},
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz',
+296 silly install resolved     readme: 'ERROR: No README data found!' },
+296 silly install resolved   { name: 'concurrently',
+296 silly install resolved     version: '2.0.0',
+296 silly install resolved     description: 'Run commands concurrently',
+296 silly install resolved     main: 'src/main.js',
+296 silly install resolved     bin: { concurrent: './src/main.js', concurrently: './src/main.js' },
+296 silly install resolved     scripts: { test: 'mocha' },
+296 silly install resolved     repository:
+296 silly install resolved      { type: 'git',
+296 silly install resolved        url: 'git+https://github.com/kimmobrunfeldt/concurrently.git' },
+296 silly install resolved     keywords:
+296 silly install resolved      [ 'bash',
+296 silly install resolved        'concurrent',
+296 silly install resolved        'parallel',
+296 silly install resolved        'concurrently',
+296 silly install resolved        'command',
+296 silly install resolved        'sh' ],
+296 silly install resolved     author: { name: 'Kimmo Brunfeldt' },
+296 silly install resolved     license: 'MIT',
+296 silly install resolved     bugs: { url: 'https://github.com/kimmobrunfeldt/concurrently/issues' },
+296 silly install resolved     homepage: 'https://github.com/kimmobrunfeldt/concurrently',
+296 silly install resolved     dependencies:
+296 silly install resolved      { bluebird: '2.9.6',
+296 silly install resolved        chalk: '0.5.1',
+296 silly install resolved        commander: '2.6.0',
+296 silly install resolved        'cross-spawn': '^0.2.9',
+296 silly install resolved        lodash: '3.1.0',
+296 silly install resolved        moment: '^2.11.2',
+296 silly install resolved        rx: '2.3.24' },
+296 silly install resolved     devDependencies:
+296 silly install resolved      { chai: '^1.10.0',
+296 silly install resolved        mocha: '^2.1.0',
+296 silly install resolved        mustache: '^1.0.0',
+296 silly install resolved        semver: '^4.2.0',
+296 silly install resolved        'shell-quote': '^1.4.3',
+296 silly install resolved        shelljs: '^0.3.0',
+296 silly install resolved        string: '^3.0.0' },
+296 silly install resolved     gitHead: '534ad6abec3564bc931227bf7a9d8658d3cd416b',
+296 silly install resolved     _id: 'concurrently@2.0.0',
+296 silly install resolved     _shasum: '117788a9e994e40b92df7e302f5efc5a6c3e6ed8',
+296 silly install resolved     _from: 'concurrently@>=2.0.0 <3.0.0',
+296 silly install resolved     _npmVersion: '2.14.2',
+296 silly install resolved     _nodeVersion: '4.0.0',
+296 silly install resolved     _npmUser: { name: 'kimmobrunfeldt', email: 'kimmo.brunfeldt@gmail.com' },
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: '117788a9e994e40b92df7e302f5efc5a6c3e6ed8',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz' },
+296 silly install resolved     maintainers: [ [Object] ],
+296 silly install resolved     _npmOperationalInternal:
+296 silly install resolved      { host: 'packages-5-east.internal.npmjs.com',
+296 silly install resolved        tmp: 'tmp/concurrently-2.0.0.tgz_1455661050086_0.9889803037513047' },
+296 silly install resolved     directories: {},
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz',
+296 silly install resolved     readme: 'ERROR: No README data found!' },
+296 silly install resolved   { name: 'typescript',
+296 silly install resolved     author: { name: 'Microsoft Corp.' },
+296 silly install resolved     homepage: 'http://typescriptlang.org/',
+296 silly install resolved     version: '1.8.9',
+296 silly install resolved     license: 'Apache-2.0',
+296 silly install resolved     description: 'TypeScript is a language for application scale JavaScript development',
+296 silly install resolved     keywords: [ 'TypeScript', 'Microsoft', 'compiler', 'language', 'javascript' ],
+296 silly install resolved     bugs: { url: 'https://github.com/Microsoft/TypeScript/issues' },
+296 silly install resolved     repository:
+296 silly install resolved      { type: 'git',
+296 silly install resolved        url: 'git+https://github.com/Microsoft/TypeScript.git' },
+296 silly install resolved     main: './lib/typescript.js',
+296 silly install resolved     typings: './lib/typescript.d.ts',
+296 silly install resolved     bin: { tsc: './bin/tsc', tsserver: './bin/tsserver' },
+296 silly install resolved     engines: { node: '>=0.8.0' },
+296 silly install resolved     devDependencies:
+296 silly install resolved      { jake: 'latest',
+296 silly install resolved        mocha: '2.3.4',
+296 silly install resolved        chai: 'latest',
+296 silly install resolved        browserify: 'latest',
+296 silly install resolved        istanbul: 'latest',
+296 silly install resolved        'mocha-fivemat-progress-reporter': 'latest',
+296 silly install resolved        tslint: 'next',
+296 silly install resolved        typescript: 'next',
+296 silly install resolved        tsd: 'latest' },
+296 silly install resolved     scripts:
+296 silly install resolved      { pretest: 'jake tests',
+296 silly install resolved        test: 'jake runtests',
+296 silly install resolved        build: 'npm run build:compiler && npm run build:tests',
+296 silly install resolved        'build:compiler': 'jake local',
+296 silly install resolved        'build:tests': 'jake tests',
+296 silly install resolved        clean: 'jake clean',
+296 silly install resolved        jake: 'jake',
+296 silly install resolved        lint: 'jake lint',
+296 silly install resolved        'setup-hooks': 'node scripts/link-hooks.js' },
+296 silly install resolved     browser: { buffer: false, fs: false, os: false, path: false },
+296 silly install resolved     gitHead: '9ef75534e0fd5f92bef86b520dff768c11a2df4d',
+296 silly install resolved     _id: 'typescript@1.8.9',
+296 silly install resolved     _shasum: 'b3b3a74059fd31cbd3ecad95d62465939e7ed5fa',
+296 silly install resolved     _from: 'typescript@>=1.8.9 <2.0.0',
+296 silly install resolved     _npmVersion: '2.0.0',
+296 silly install resolved     _npmUser: { name: 'typescript', email: 'typescript@microsoft.com' },
+296 silly install resolved     maintainers: [ [Object] ],
+296 silly install resolved     dist:
+296 silly install resolved      { shasum: 'b3b3a74059fd31cbd3ecad95d62465939e7ed5fa',
+296 silly install resolved        tarball: 'https://registry.npmjs.org/typescript/-/typescript-1.8.9.tgz' },
+296 silly install resolved     _npmOperationalInternal:
+296 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+296 silly install resolved        tmp: 'tmp/typescript-1.8.9.tgz_1458169371557_0.7292261146940291' },
+296 silly install resolved     directories: {},
+296 silly install resolved     _resolved: 'https://registry.npmjs.org/typescript/-/typescript-1.8.9.tgz',
+296 silly install resolved     readme: 'ERROR: No README data found!' } ]
+297 info install rxjs@5.0.0-beta.2 into /Users/Chris/myflatcollect
+298 info install reflect-metadata@0.1.2 into /Users/Chris/myflatcollect
+299 info install zone.js@0.6.6 into /Users/Chris/myflatcollect
+300 info install systemjs@0.19.25 into /Users/Chris/myflatcollect
+301 info install angular2@2.0.0-beta.14 into /Users/Chris/myflatcollect
+302 info install lite-server@2.2.0 into /Users/Chris/myflatcollect
+303 info install typings@0.7.12 into /Users/Chris/myflatcollect
+304 info install es6-shim@0.35.0 into /Users/Chris/myflatcollect
+305 info install concurrently@2.0.0 into /Users/Chris/myflatcollect
+306 info install typescript@1.8.9 into /Users/Chris/myflatcollect
+307 info installOne rxjs@5.0.0-beta.2
+308 verbose installOne of rxjs to /Users/Chris/myflatcollect not in flight; installing
+309 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir not in flight; initializing
+310 info installOne reflect-metadata@0.1.2
+311 verbose installOne of reflect-metadata to /Users/Chris/myflatcollect not in flight; installing
+312 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir already in flight; waiting
+313 info installOne zone.js@0.6.6
+314 verbose installOne of zone.js to /Users/Chris/myflatcollect not in flight; installing
+315 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir already in flight; waiting
+316 info installOne systemjs@0.19.25
+317 verbose installOne of systemjs to /Users/Chris/myflatcollect not in flight; installing
+318 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir already in flight; waiting
+319 info installOne angular2@2.0.0-beta.14
+320 verbose installOne of angular2 to /Users/Chris/myflatcollect not in flight; installing
+321 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir already in flight; waiting
+322 info installOne lite-server@2.2.0
+323 verbose installOne of lite-server to /Users/Chris/myflatcollect not in flight; installing
+324 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir already in flight; waiting
+325 info installOne typings@0.7.12
+326 verbose installOne of typings to /Users/Chris/myflatcollect not in flight; installing
+327 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir already in flight; waiting
+328 info installOne es6-shim@0.35.0
+329 verbose installOne of es6-shim to /Users/Chris/myflatcollect not in flight; installing
+330 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir already in flight; waiting
+331 info installOne concurrently@2.0.0
+332 verbose installOne of concurrently to /Users/Chris/myflatcollect not in flight; installing
+333 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir already in flight; waiting
+334 info installOne typescript@1.8.9
+335 verbose installOne of typescript to /Users/Chris/myflatcollect not in flight; installing
+336 verbose correctMkdir /Users/Chris/.npm/_locks correctMkdir already in flight; waiting
+337 warn locking Error: EACCES: permission denied, open '/Users/Chris/.npm/_locks/rxjs-455a007699e72935.lock'
+337 warn locking     at Error (native)
+337 warn locking  /Users/Chris/.npm/_locks/rxjs-455a007699e72935.lock failed { [Error: EACCES: permission denied, open '/Users/Chris/.npm/_locks/rxjs-455a007699e72935.lock']
+337 warn locking   errno: -13,
+337 warn locking   code: 'EACCES',
+337 warn locking   syscall: 'open',
+337 warn locking   path: '/Users/Chris/.npm/_locks/rxjs-455a007699e72935.lock' }
+338 verbose stack Error: Attempt to unlock /Users/Chris/myflatcollect/node_modules/rxjs, which hasn't been locked
+338 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:64:11)
+338 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1018:5)
+338 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1022:20
+338 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:39:7
+338 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+338 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+338 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:232:16
+338 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+339 verbose cwd /Users/Chris/myflatcollect
+340 error Darwin 15.3.0
+341 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+342 error node v4.4.2
+343 error npm  v2.15.0
+344 error Attempt to unlock /Users/Chris/myflatcollect/node_modules/rxjs, which hasn't been locked
+345 error If you need help, you may report this error at:
+345 error     <https://github.com/npm/npm/issues>
+346 verbose exit [ 1, true ]
